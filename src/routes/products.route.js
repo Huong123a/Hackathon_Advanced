@@ -6,7 +6,7 @@ const productsController = new ProductsController();
 // get all users
 productsRouter.get("/", productsController.getAllProducts);
 // get user by id
-productsRouter.get("/:id", productsController.getProductsById);
+productsRouter.get("/:id", productsController.getProductById);
 // create user
 productsRouter.post("/", productsController.createProduct);
 // delete user

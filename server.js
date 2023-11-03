@@ -12,7 +12,6 @@ app.use(bodyParser.json());
 // Xử lý lỗi CORS Policy
 app.use(cors());
 route(app);
-
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`xin chào http://localhost:${PORT}`);
